@@ -1,7 +1,7 @@
 # fluffy-winner-conflict
 Demonstration to show how git pull works when there's conflict. Here's what I have done
 
-First, I create a reposiroty named fluffy-winner-conflict in GitHub. Then I add an empty file named file1\
+First, I create a repository named fluffy-winner-conflict in GitHub. Then I add an empty file named file1\
 Then, on my local computer, i clone the repository so now I have a local copy of the remote repository in my local computer
 ```
 git clone git@github.com:syafiqahlukman/fluffy-winner-conflict.git
@@ -27,7 +27,7 @@ git config pull.rebase false
 git pull
 ```
 
-However, after I run th eprevious 2 commands, there will be error saying that there's conflict in merging the conflict in file1
+However, after I run the previous 2 commands, there will be error saying that there's conflict in merging the conflict in file1
 ```
 Auto-merging file1
 CONFLICT (content): Merge conflict in file1
